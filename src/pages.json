@@ -1,0 +1,181 @@
+{
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^nav-bar$": "@/components/nav-bar.vue",
+      "^prod-img$": "@/components/prod-img.vue",
+      "^price-tag$": "@/components/price-tag.vue",
+      "^empty-box$": "@/components/empty-box.vue",
+      "^product-card$": "@/components/product-card.vue",
+      "^icon-svg$": "@/components/icon-svg.vue"
+    }
+  },
+  "pages": [
+    {
+      "path": "pages/splash/splash",
+      "style": { "navigationStyle": "custom", "backgroundColor": "#F2FBF6" }
+    },
+    {
+      "path": "pages/onboarding/onboarding",
+      "style": { "navigationStyle": "custom", "backgroundColor": "#FFFFFF" }
+    },
+    {
+      "path": "pages/login/login",
+      "style": { "navigationStyle": "custom", "backgroundColor": "#FFFFFF" }
+    },
+    {
+      "path": "pages/tabbar/home/home",
+      "style": { "navigationStyle": "custom", "enablePullDownRefresh": true, "backgroundColor": "#F4F8F5" }
+    },
+    {
+      "path": "pages/tabbar/category/category",
+      "style": { "navigationStyle": "custom", "backgroundColor": "#F4F8F5" }
+    },
+    {
+      "path": "pages/tabbar/cart/cart",
+      "style": { "navigationStyle": "custom", "backgroundColor": "#F4F8F5" }
+    },
+    {
+      "path": "pages/tabbar/community/community",
+      "style": { "navigationStyle": "custom", "enablePullDownRefresh": true, "backgroundColor": "#F4F8F5" }
+    },
+    {
+      "path": "pages/tabbar/profile/profile",
+      "style": { "navigationStyle": "custom", "backgroundColor": "#F4F8F5" }
+    },
+    {
+      "path": "pages/search/search",
+      "style": { "navigationStyle": "custom", "backgroundColor": "#F4F8F5" }
+    },
+    {
+      "path": "pages/product/detail",
+      "style": { "navigationStyle": "custom", "backgroundColor": "#F4F8F5" }
+    },
+    {
+      "path": "pages/product/reviews",
+      "style": { "navigationStyle": "custom", "backgroundColor": "#F4F8F5" }
+    },
+    {
+      "path": "pages/order/confirm",
+      "style": { "navigationStyle": "custom", "backgroundColor": "#F4F8F5" }
+    },
+    {
+      "path": "pages/order/pay-result",
+      "style": { "navigationStyle": "custom", "backgroundColor": "#F4F8F5" }
+    },
+    {
+      "path": "pages/order/list",
+      "style": { "navigationStyle": "custom", "enablePullDownRefresh": true, "backgroundColor": "#F4F8F5" }
+    },
+    {
+      "path": "pages/order/detail",
+      "style": { "navigationStyle": "custom", "backgroundColor": "#F4F8F5" }
+    },
+    {
+      "path": "pages/order/logistics",
+      "style": { "navigationStyle": "custom", "backgroundColor": "#F4F8F5" }
+    },
+    {
+      "path": "pages/address/list",
+      "style": { "navigationStyle": "custom", "backgroundColor": "#F4F8F5" }
+    },
+    {
+      "path": "pages/address/edit",
+      "style": { "navigationStyle": "custom", "backgroundColor": "#F4F8F5" }
+    },
+    {
+      "path": "pages/farm/home",
+      "style": { "navigationStyle": "custom", "backgroundColor": "#F4F8F5" }
+    },
+    {
+      "path": "pages/farm/calendar",
+      "style": { "navigationStyle": "custom", "backgroundColor": "#F4F8F5" }
+    },
+    {
+      "path": "pages/farm/record",
+      "style": { "navigationStyle": "custom", "backgroundColor": "#F4F8F5" }
+    },
+    {
+      "path": "pages/post/detail",
+      "style": { "navigationStyle": "custom", "backgroundColor": "#FFFFFF" }
+    },
+    {
+      "path": "pages/post/publish",
+      "style": { "navigationStyle": "custom", "backgroundColor": "#F4F8F5" }
+    },
+    {
+      "path": "pages/live/live",
+      "style": { "navigationStyle": "custom", "backgroundColor": "#0C1310" }
+    },
+    {
+      "path": "pages/message/message",
+      "style": { "navigationStyle": "custom", "backgroundColor": "#F4F8F5" }
+    },
+    {
+      "path": "pages/message/chat",
+      "style": { "navigationStyle": "custom", "backgroundColor": "#F4F8F5" }
+    },
+    {
+      "path": "pages/profile/favorite",
+      "style": { "navigationStyle": "custom", "backgroundColor": "#F4F8F5" }
+    },
+    {
+      "path": "pages/profile/coupon",
+      "style": { "navigationStyle": "custom", "backgroundColor": "#F4F8F5" }
+    },
+    {
+      "path": "pages/profile/settings",
+      "style": { "navigationStyle": "custom", "backgroundColor": "#F4F8F5" }
+    }
+  ],
+  "globalStyle": {
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "农汇",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F4F8F5",
+    "backgroundColorTop": "#F4F8F5",
+    "backgroundColorBottom": "#F4F8F5"
+  },
+  "tabBar": {
+    "color": "#9AA7A1",
+    "selectedColor": "#0FC97A",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "white",
+    "fontSize": "10px",
+    "iconWidth": "22px",
+    "spacing": "3px",
+    "list": [
+      {
+        "pagePath": "pages/tabbar/home/home",
+        "text": "首页",
+        "iconPath": "static/tabbar/home.png",
+        "selectedIconPath": "static/tabbar/home-on.png"
+      },
+      {
+        "pagePath": "pages/tabbar/category/category",
+        "text": "分类",
+        "iconPath": "static/tabbar/cate.png",
+        "selectedIconPath": "static/tabbar/cate-on.png"
+      },
+      {
+        "pagePath": "pages/tabbar/cart/cart",
+        "text": "菜篮子",
+        "iconPath": "static/tabbar/cart.png",
+        "selectedIconPath": "static/tabbar/cart-on.png"
+      },
+      {
+        "pagePath": "pages/tabbar/community/community",
+        "text": "农友圈",
+        "iconPath": "static/tabbar/community.png",
+        "selectedIconPath": "static/tabbar/community-on.png"
+      },
+      {
+        "pagePath": "pages/tabbar/profile/profile",
+        "text": "我的",
+        "iconPath": "static/tabbar/mine.png",
+        "selectedIconPath": "static/tabbar/mine-on.png"
+      }
+    ]
+  }
+}
